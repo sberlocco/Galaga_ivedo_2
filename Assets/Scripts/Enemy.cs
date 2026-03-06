@@ -1,34 +1,19 @@
 using UnityEngine;
-using System.Collections;
 
 public class Enemy : MonoBehaviour
 {
-    public float speed = 2f;
-    public GameObject enemyBullet;
-    public float fireRate = 2f;
-    private float nextFire;
+    public int health = 1;
 
-    void Update()
+    public void TakeDamage(int damage)
     {
-        // Movimento lento verso il basso (puoi cambiare logica per pattern più complessi)
-        transform.position += Vector3.down * speed * Time.deltaTime;
+        health -= damage;
 
-        // Sparo automatico
-        if (Time.time > nextFire)
-        {
-            Shoot();
-            nextFire = Time.time + fireRate;
-        }
+        if (health <= 0)
+            Die();
     }
 
-    void Shoot()
+    void Die()
     {
-        if (enemyBullet != null)
-        {
-            GameObject b = Instantiate(enemyBullet, transform.position, Quaternion.identity);
-            Bullet bulletScript = b.GetComponent<Bullet>();
-            if (bulletScript != null)
-                bulletScript.targetTag = "Player"; // cambia il target
-        }
+        Destroy(gameObject);
     }
 }

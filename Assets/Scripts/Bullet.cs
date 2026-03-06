@@ -3,18 +3,36 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     public float speed = 12f;
-    public string targetTag = "Enemy"; // cambiare in "Player" per proiettili nemici
+    public float lifeTime = 5f;
 
-    void Start()
+    private Vector3 moveDirection;
+    private bool isEnemyBullet;
+
+    public void Init(Vector3 direction, bool enemyBullet)
     {
-        Rigidbody rb = GetComponent<Rigidbody>();
-        rb.linearVelocity = Vector3.up * speed; // usa Vector3.down se è proiettile nemico
-        Destroy(gameObject, 5f); // auto-distruzione
+        moveDirection = direction.normalized;
+        isEnemyBullet = enemyBullet;
+
+        Destroy(gameObject, lifeTime);
+    }
+
+    void Update()
+    {
+        transform.position += moveDirection * speed * Time.deltaTime;
     }
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag(targetTag))
+        if (!isEnemyBullet && other.CompareTag("Enemy"))
+        {
+            Enemy enemy = other.GetComponent<Enemy>();
+            if (enemy != null)
+                enemy.TakeDamage(1);
+
+            Destroy(gameObject);
+        }
+
+        if (isEnemyBullet && other.CompareTag("Player"))
         {
             Destroy(other.gameObject);
             Destroy(gameObject);

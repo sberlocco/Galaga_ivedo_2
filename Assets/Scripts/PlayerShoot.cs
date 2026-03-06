@@ -18,9 +18,20 @@ public class PlayerShoot : MonoBehaviour
 
     void Shoot()
     {
-        if (bulletPrefab != null && firePoint != null)
+        if (bulletPrefab == null || firePoint == null)
         {
-            Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+            Debug.LogError("Bullet Prefab o FirePoint NON assegnato!");
+            return;
         }
+
+        GameObject bullet = Instantiate(
+            bulletPrefab,
+            firePoint.position,
+            Quaternion.identity
+        );
+
+        Bullet bulletScript = bullet.GetComponent<Bullet>();
+        bulletScript.Init(Vector3.forward, false);
     }
+    
 }
