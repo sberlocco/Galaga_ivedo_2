@@ -411,6 +411,7 @@
 "Assets/Scripts/EnemyShooter.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/LevelManager.cs"
+"Assets/Scripts/LevelManager2.cs"
 "Assets/Scripts/MenuManager.cs"
 "Assets/Scripts/PlayerHealth.cs"
 "Assets/Scripts/PlayerMovement.cs"

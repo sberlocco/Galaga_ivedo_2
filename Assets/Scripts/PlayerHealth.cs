@@ -3,11 +3,18 @@ using UnityEngine;
 public class PlayerHealth : MonoBehaviour
 {
     public int health = 3;
-
+    [Header("Audio")]
+    public AudioClip deathSound;
+    private AudioSource audioSource;
+    [Header("Effetti")]
+    public GameObject explosionPrefab;
+    void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
     public void TakeDamage(int amount)
     {
         health -= amount;
-        Debug.Log("Player HP: " + health);
 
         if (health <= 0)
             Die();
@@ -16,7 +23,13 @@ public class PlayerHealth : MonoBehaviour
     void Die()
     {
         Debug.Log("Player morto!");
-        Destroy(gameObject); // oppure trigger Game Over
+
+        if (deathSound != null)
+            AudioSource.PlayClipAtPoint(deathSound, transform.position); 
+
+        if (explosionPrefab != null)                                    
+            Instantiate(explosionPrefab, transform.position, Quaternion.identity);
+        Destroy(gameObject);
     }
 
     private void OnTriggerEnter(Collider other)
