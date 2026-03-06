@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\erics\\Desktop\\Galaga_ivedo_2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2F235EFE-CEF1-B9BB-0B79-B3B95DBE7B52}|Assembly-CSharp.csproj|c:\\users\\erics\\desktop\\galaga_ivedo_2\\assets\\scripts\\enemyshooter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F235EFE-CEF1-B9BB-0B79-B3B95DBE7B52}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyshooter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F235EFE-CEF1-B9BB-0B79-B3B95DBE7B52}|Assembly-CSharp.csproj|C:\\Users\\erics\\Desktop\\Galaga_ivedo_2\\assets\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F235EFE-CEF1-B9BB-0B79-B3B95DBE7B52}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F235EFE-CEF1-B9BB-0B79-B3B95DBE7B52}|Assembly-CSharp.csproj|C:\\Users\\erics\\Desktop\\Galaga_ivedo_2\\assets\\scripts\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F235EFE-CEF1-B9BB-0B79-B3B95DBE7B52}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F235EFE-CEF1-B9BB-0B79-B3B95DBE7B52}|Assembly-CSharp.csproj|C:\\Users\\erics\\Desktop\\Galaga_ivedo_2\\assets\\scripts\\playershoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F235EFE-CEF1-B9BB-0B79-B3B95DBE7B52}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playershoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F235EFE-CEF1-B9BB-0B79-B3B95DBE7B52}|Assembly-CSharp.csproj|C:\\Users\\erics\\Desktop\\Galaga_ivedo_2\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F235EFE-CEF1-B9BB-0B79-B3B95DBE7B52}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EnemyShooter.cs",
+              "DocumentMoniker": "C:\\Users\\erics\\Desktop\\Galaga_ivedo_2\\Assets\\Scripts\\EnemyShooter.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyShooter.cs",
+              "ToolTip": "C:\\Users\\erics\\Desktop\\Galaga_ivedo_2\\Assets\\Scripts\\EnemyShooter.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyShooter.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAmwCgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T13:23:27.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "C:\\Users\\erics\\Desktop\\Galaga_ivedo_2\\Assets\\Scripts\\Enemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy.cs",
+              "ToolTip": "C:\\Users\\erics\\Desktop\\Galaga_ivedo_2\\Assets\\Scripts\\Enemy.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T13:23:10.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerHealth.cs",
+              "DocumentMoniker": "C:\\Users\\erics\\Desktop\\Galaga_ivedo_2\\Assets\\Scripts\\PlayerHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerHealth.cs",
+              "ToolTip": "C:\\Users\\erics\\Desktop\\Galaga_ivedo_2\\Assets\\Scripts\\PlayerHealth.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerHealth.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwB4AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T11:07:57.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerShoot.cs",
+              "DocumentMoniker": "C:\\Users\\erics\\Desktop\\Galaga_ivedo_2\\Assets\\Scripts\\PlayerShoot.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerShoot.cs",
+              "ToolTip": "C:\\Users\\erics\\Desktop\\Galaga_ivedo_2\\Assets\\Scripts\\PlayerShoot.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerShoot.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T10:33:55.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\Users\\erics\\Desktop\\Galaga_ivedo_2\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
+              "ToolTip": "C:\\Users\\erics\\Desktop\\Galaga_ivedo_2\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T10:33:44.202Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

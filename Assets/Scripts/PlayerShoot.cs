@@ -7,6 +7,15 @@ public class PlayerShoot : MonoBehaviour
     public float fireRate = 0.3f;
     private float nextFire;
 
+    [Header("Audio")]                          
+    public AudioClip shootSound;               
+    private AudioSource audioSource;           
+
+    void Start()                               
+    {                                          
+        audioSource = GetComponent<AudioSource>(); 
+    }
+
     void Update()
     {
         if (Input.GetKey(KeyCode.Space) && Time.time > nextFire)
@@ -24,14 +33,24 @@ public class PlayerShoot : MonoBehaviour
             return;
         }
 
-        GameObject bullet = Instantiate(
-            bulletPrefab,
-            firePoint.position,
-            Quaternion.identity
-        );
 
-        Bullet bulletScript = bullet.GetComponent<Bullet>();
-        bulletScript.Init(Vector3.forward, false);
+        if (shootSound != null)
+            audioSource.PlayOneShot(shootSound);
+        {
+            if (bulletPrefab == null || firePoint == null)
+            {
+                Debug.LogError("Bullet Prefab o FirePoint NON assegnato!");
+                return;
+            }
+
+            GameObject bullet = Instantiate(
+                bulletPrefab,
+                firePoint.position,
+                Quaternion.identity
+            );
+
+            Bullet bulletScript = bullet.GetComponent<Bullet>();
+            bulletScript.Init(Vector3.forward, false);
+        }
     }
-    
 }

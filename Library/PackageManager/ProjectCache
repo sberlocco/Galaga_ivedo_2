@@ -1,25 +1,25 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/edoba/Desktop/Galaga_ivedo/Packages/manifest.json
+    m_FilePath: C:/Users/erics/Desktop/Galaga_ivedo_2/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639071902742062578
-    m_Hash: 165093368
+      ticks: 639071969107878702
+    m_Hash: 1079182973
   m_LockFileStatus:
-    m_FilePath: C:/Users/edoba/Desktop/Galaga_ivedo/Packages/packages-lock.json
+    m_FilePath: C:/Users/erics/Desktop/Galaga_ivedo_2/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639071903181165982
-    m_Hash: 3315133162
+      ticks: 639071969107888690
+    m_Hash: 1439410894
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: C:/Users/edoba/Desktop/Galaga_ivedo/Packages
+m_ProjectPath: C:/Users/erics/Desktop/Galaga_ivedo_2/Packages
 m_EditorVersion: 6000.3.4f1 (fdd3b8998ec4)
 m_ResolvedPackages:
 - packageId: com.unity.collab-proxy@2.11.2
@@ -27,7 +27,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.11.2
   source: 1
-  resolvedPath: C:\Users\edoba\Desktop\Galaga_ivedo\Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af
+  resolvedPath: C:\Users\erics\Desktop\Galaga_ivedo_2\Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Unity Version Control
@@ -130,10 +130,12 @@ m_ResolvedPackages:
     - 2.10.2
     - 2.11.2
     - 2.11.3
+    - 2.11.4
     compatible:
     - 2.11.2
     - 2.11.3
-    recommended: 2.11.3
+    - 2.11.4
+    recommended: 2.11.4
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -234,7 +236,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.2
   source: 2
-  resolvedPath: C:\Users\edoba\Desktop\Galaga_ivedo\Library\PackageCache\com.unity.feature.development@767aadbc6eb7
+  resolvedPath: C:\Users\erics\Desktop\Galaga_ivedo_2\Library\PackageCache\com.unity.feature.development@767aadbc6eb7
   assetPath: Packages/com.unity.feature.development
   name: com.unity.feature.development
   displayName: Engineering
@@ -356,7 +358,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.17.0
   source: 1
-  resolvedPath: C:\Users\edoba\Desktop\Galaga_ivedo\Library\PackageCache\com.unity.inputsystem@02433b2481ab
+  resolvedPath: C:\Users\erics\Desktop\Galaga_ivedo_2\Library\PackageCache\com.unity.inputsystem@02433b2481ab
   assetPath: Packages/com.unity.inputsystem
   name: com.unity.inputsystem
   displayName: Input System
@@ -432,9 +434,11 @@ m_ResolvedPackages:
     - 1.16.0
     - 1.17.0
     - 1.18.0
+    - 1.19.0
     compatible:
     - 1.17.0
     - 1.18.0
+    - 1.19.0
     recommended: 1.17.0
     deprecated: []
   dependencies:
@@ -539,7 +543,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.1
   source: 2
-  resolvedPath: C:\Users\edoba\Desktop\Galaga_ivedo\Library\PackageCache\com.unity.multiplayer.center@f01f4ba8d00a
+  resolvedPath: C:\Users\erics\Desktop\Galaga_ivedo_2\Library\PackageCache\com.unity.multiplayer.center@f01f4ba8d00a
   assetPath: Packages/com.unity.multiplayer.center
   name: com.unity.multiplayer.center
   displayName: Multiplayer Center
@@ -646,7 +650,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.8.10
   source: 1
-  resolvedPath: C:\Users\edoba\Desktop\Galaga_ivedo\Library\PackageCache\com.unity.timeline@7f8b2fb101b6
+  resolvedPath: C:\Users\erics\Desktop\Galaga_ivedo_2\Library\PackageCache\com.unity.timeline@7f8b2fb101b6
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -751,9 +755,11 @@ m_ResolvedPackages:
     - 1.8.8
     - 1.8.9
     - 1.8.10
+    - 1.8.11
     compatible:
     - 1.8.10
-    recommended: 1.8.10
+    - 1.8.11
+    recommended: 1.8.11
     deprecated: []
   dependencies:
   - name: com.unity.modules.audio
@@ -847,7 +853,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.0
   source: 2
-  resolvedPath: C:\Users\edoba\Desktop\Galaga_ivedo\Library\PackageCache\com.unity.ugui@1890c14c96ff
+  resolvedPath: C:\Users\erics\Desktop\Galaga_ivedo_2\Library\PackageCache\com.unity.ugui@1890c14c96ff
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: uGUI
@@ -954,7 +960,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.9.9
   source: 1
-  resolvedPath: C:\Users\edoba\Desktop\Galaga_ivedo\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69
+  resolvedPath: C:\Users\erics\Desktop\Galaga_ivedo_2\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -1005,9 +1011,11 @@ m_ResolvedPackages:
     - 1.9.7
     - 1.9.8
     - 1.9.9
+    - 1.9.10
     compatible:
     - 1.9.9
-    recommended: 1.9.9
+    - 1.9.10
+    recommended: 1.9.10
     deprecated:
     - 1.8.0-pre.1
   dependencies:
@@ -4433,7 +4441,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.26
   source: 1
-  resolvedPath: C:\Users\edoba\Desktop\Galaga_ivedo\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f
+  resolvedPath: C:\Users\erics\Desktop\Galaga_ivedo_2\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -4562,7 +4570,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 3.0.38
   source: 1
-  resolvedPath: C:\Users\edoba\Desktop\Galaga_ivedo\Library\PackageCache\com.unity.ide.rider@1f60b3138684
+  resolvedPath: C:\Users\erics\Desktop\Galaga_ivedo_2\Library\PackageCache\com.unity.ide.rider@1f60b3138684
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -4706,7 +4714,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.1
   source: 1
-  resolvedPath: C:\Users\edoba\Desktop\Galaga_ivedo\Library\PackageCache\com.unity.editorcoroutines@54394ed3283c
+  resolvedPath: C:\Users\erics\Desktop\Galaga_ivedo_2\Library\PackageCache\com.unity.editorcoroutines@54394ed3283c
   assetPath: Packages/com.unity.editorcoroutines
   name: com.unity.editorcoroutines
   displayName: Editor Coroutines
@@ -4805,7 +4813,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.2.4
   source: 1
-  resolvedPath: C:\Users\edoba\Desktop\Galaga_ivedo\Library\PackageCache\com.unity.performance.profile-analyzer@0516b3a47353
+  resolvedPath: C:\Users\erics\Desktop\Galaga_ivedo_2\Library\PackageCache\com.unity.performance.profile-analyzer@0516b3a47353
   assetPath: Packages/com.unity.performance.profile-analyzer
   name: com.unity.performance.profile-analyzer
   displayName: Profile Analyzer
@@ -4841,10 +4849,12 @@ m_ResolvedPackages:
     - 1.2.4
     - 1.3.0
     - 1.3.1
+    - 1.3.2
     compatible:
     - 1.2.4
     - 1.3.0
     - 1.3.1
+    - 1.3.2
     recommended: 1.2.4
     deprecated: []
   dependencies: []
@@ -4916,7 +4926,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.6.0
   source: 2
-  resolvedPath: C:\Users\edoba\Desktop\Galaga_ivedo\Library\PackageCache\com.unity.test-framework@0b7a23ab2e1d
+  resolvedPath: C:\Users\erics\Desktop\Galaga_ivedo_2\Library\PackageCache\com.unity.test-framework@0b7a23ab2e1d
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -5017,7 +5027,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.2.7
   source: 1
-  resolvedPath: C:\Users\edoba\Desktop\Galaga_ivedo\Library\PackageCache\com.unity.testtools.codecoverage@e4e5058206c0
+  resolvedPath: C:\Users\erics\Desktop\Galaga_ivedo_2\Library\PackageCache\com.unity.testtools.codecoverage@e4e5058206c0
   assetPath: Packages/com.unity.testtools.codecoverage
   name: com.unity.testtools.codecoverage
   displayName: Code Coverage
@@ -5164,7 +5174,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.1.1
   source: 1
-  resolvedPath: C:\Users\edoba\Desktop\Galaga_ivedo\Library\PackageCache\com.unity.settings-manager@0b8638c5ce86
+  resolvedPath: C:\Users\erics\Desktop\Galaga_ivedo_2\Library\PackageCache\com.unity.settings-manager@0b8638c5ce86
   assetPath: Packages/com.unity.settings-manager
   name: com.unity.settings-manager
   displayName: Settings Manager
@@ -5263,7 +5273,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.5
   source: 2
-  resolvedPath: C:\Users\edoba\Desktop\Galaga_ivedo\Library\PackageCache\com.unity.ext.nunit@d8c07649098d
+  resolvedPath: C:\Users\erics\Desktop\Galaga_ivedo_2\Library\PackageCache\com.unity.ext.nunit@d8c07649098d
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
