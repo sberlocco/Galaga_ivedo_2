@@ -52,6 +52,7 @@
     <Compile Include="Assets\Scripts\EnemyFormationLevel3.cs" />
     <Compile Include="Assets\Scripts\EnemyFormationLevel2.cs" />
     <Compile Include="Assets\Scripts\Bullet.cs" />
+    <Compile Include="Assets\Scripts\LevelStartDelay.cs" />
     <Compile Include="Assets\Scripts\PlayerHealth.cs" />
     <Compile Include="Assets\Scripts\EnemyAttack.cs" />
     <Compile Include="Assets\Scripts\EnemyFormation.cs" />
@@ -61,6 +62,7 @@
     <Compile Include="Assets\Scripts\PlayerShoot.cs" />
     <Compile Include="Assets\Scripts\MenuManager.cs" />
     <Compile Include="Assets\Scripts\EnemyShooter.cs" />
+    <Compile Include="Assets\Scripts\CountDownStart.cs" />
     <Compile Include="Assets\Scripts\LevelManager.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\PauseMenu.cs" />
