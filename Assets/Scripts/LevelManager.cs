@@ -1,22 +1,32 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+
 public class LevelManager : MonoBehaviour
 {
+    private static bool isTransitioning = false; // static: condiviso tra tutte le istanze
+
+    void OnEnable()
+    {
+        isTransitioning = false; // reset quando la scena si carica
+    }
+
     void Update()
     {
-        // Se il player è morto → Game Over
-        if (GameObject.FindGameObjectWithTag("Player") == null)
+        if (isTransitioning) return;
+
+        if (GameObject.FindGameObjectsWithTag("Player").Length == 0)
         {
+            isTransitioning = true;
             SceneManager.LoadScene("GameOver");
             return;
         }
 
-        // Se non ci sono più nemici nella scena
         if (GameObject.FindGameObjectsWithTag("Enemy").Length == 0)
         {
+            isTransitioning = true;
             if (SceneManager.GetActiveScene().name == "Level1")
                 SceneManager.LoadScene("Level2");
-            if (SceneManager.GetActiveScene().name == "Level2")
+            else if (SceneManager.GetActiveScene().name == "Level2")
                 SceneManager.LoadScene("Level3");
         }
     }
