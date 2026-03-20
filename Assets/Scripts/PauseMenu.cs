@@ -23,7 +23,10 @@ public class PauseMenu : MonoBehaviour
 
     public void Resume()
     {
-        pauseMenuUI.SetActive(false);
+        Debug.Log("Resume chiamato!");
+        Debug.Log("pauseMenuUI è: " + (pauseMenuUI == null ? "NULL" : pauseMenuUI.name));
+        if (pauseMenuUI != null)
+            pauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
         isPaused = false;
     }
@@ -37,6 +40,11 @@ public class PauseMenu : MonoBehaviour
 
     public void QuitGame()
     {
-        Application.Quit();
+        Debug.Log("QuitGame chiamato!");
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#else
+    Application.Quit();
+#endif
     }
 }

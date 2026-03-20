@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\erics\\Desktop\\Galaga_ivedo_2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2F235EFE-CEF1-B9BB-0B79-B3B95DBE7B52}|Assembly-CSharp.csproj|c:\\users\\erics\\desktop\\galaga_ivedo_2\\assets\\scripts\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F235EFE-CEF1-B9BB-0B79-B3B95DBE7B52}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\erics\\desktop\\galaga_ivedo_2\\assets\\scripts\\enemyformationlevel3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\enemyformationlevel3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F235EFE-CEF1-B9BB-0B79-B3B95DBE7B52}|Assembly-CSharp.csproj|C:\\Users\\erics\\Desktop\\Galaga_ivedo_2\\assets\\scripts\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F235EFE-CEF1-B9BB-0B79-B3B95DBE7B52}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2F235EFE-CEF1-B9BB-0B79-B3B95DBE7B52}|Assembly-CSharp.csproj|C:\\Users\\erics\\Desktop\\Galaga_ivedo_2\\assets\\scripts\\enemyformationlevel2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F235EFE-CEF1-B9BB-0B79-B3B95DBE7B52}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyformationlevel2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F235EFE-CEF1-B9BB-0B79-B3B95DBE7B52}|Assembly-CSharp.csproj|C:\\Users\\erics\\Desktop\\Galaga_ivedo_2\\assets\\scripts\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F235EFE-CEF1-B9BB-0B79-B3B95DBE7B52}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2F235EFE-CEF1-B9BB-0B79-B3B95DBE7B52}|Assembly-CSharp.csproj|C:\\Users\\erics\\Desktop\\Galaga_ivedo_2\\assets\\scripts\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2F235EFE-CEF1-B9BB-0B79-B3B95DBE7B52}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F235EFE-CEF1-B9BB-0B79-B3B95DBE7B52}|Assembly-CSharp.csproj|C:\\Users\\erics\\Desktop\\Galaga_ivedo_2\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F235EFE-CEF1-B9BB-0B79-B3B95DBE7B52}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2F235EFE-CEF1-B9BB-0B79-B3B95DBE7B52}|Assembly-CSharp.csproj|C:\\Users\\erics\\Desktop\\Galaga_ivedo_2\\assets\\scripts\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F235EFE-CEF1-B9BB-0B79-B3B95DBE7B52}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,56 +30,68 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EnemyFormationLevel3.cs",
+              "DocumentMoniker": "C:\\Users\\erics\\Desktop\\Galaga_ivedo_2\\Assets\\Scripts\\EnemyFormationLevel3.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyFormationLevel3.cs",
+              "ToolTip": "C:\\Users\\erics\\Desktop\\Galaga_ivedo_2\\Assets\\Scripts\\EnemyFormationLevel3.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyFormationLevel3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T16:49:38.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "EnemyFormationLevel2.cs",
+              "DocumentMoniker": "C:\\Users\\erics\\Desktop\\Galaga_ivedo_2\\Assets\\Scripts\\EnemyFormationLevel2.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyFormationLevel2.cs",
+              "ToolTip": "C:\\Users\\erics\\Desktop\\Galaga_ivedo_2\\Assets\\Scripts\\EnemyFormationLevel2.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyFormationLevel2.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAcwD8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T16:49:29.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "PauseMenu.cs",
               "DocumentMoniker": "C:\\Users\\erics\\Desktop\\Galaga_ivedo_2\\Assets\\Scripts\\PauseMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PauseMenu.cs",
               "ToolTip": "C:\\Users\\erics\\Desktop\\Galaga_ivedo_2\\Assets\\Scripts\\PauseMenu.cs",
               "RelativeToolTip": "Assets\\Scripts\\PauseMenu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-20T14:49:37.441Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MenuManager.cs",
               "DocumentMoniker": "C:\\Users\\erics\\Desktop\\Galaga_ivedo_2\\Assets\\Scripts\\MenuManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MenuManager.cs",
               "ToolTip": "C:\\Users\\erics\\Desktop\\Galaga_ivedo_2\\Assets\\Scripts\\MenuManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\MenuManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-20T14:49:02.127Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "C:\\Users\\erics\\Desktop\\Galaga_ivedo_2\\Assets\\Scripts\\GameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
-              "ToolTip": "C:\\Users\\erics\\Desktop\\Galaga_ivedo_2\\Assets\\Scripts\\GameManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBwAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T14:39:50.059Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "LevelManager.cs",
               "DocumentMoniker": "C:\\Users\\erics\\Desktop\\Galaga_ivedo_2\\Assets\\Scripts\\LevelManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LevelManager.cs",
               "ToolTip": "C:\\Users\\erics\\Desktop\\Galaga_ivedo_2\\Assets\\Scripts\\LevelManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\LevelManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAUwAUAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T17:11:52.496Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-06T17:11:52.496Z"
             }
           ]
         }

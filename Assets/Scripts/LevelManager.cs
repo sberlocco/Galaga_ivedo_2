@@ -3,20 +3,25 @@ using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour
 {
-    private static bool isTransitioning = false; // static: condiviso tra tutte le istanze
+    private bool isTransitioning = false;
 
-    void OnEnable()
+    void Start()
     {
-        isTransitioning = false; // reset quando la scena si carica
+        isTransitioning = false;
     }
 
     void Update()
     {
         if (isTransitioning) return;
 
+        Debug.Log("Player count: " + GameObject.FindGameObjectsWithTag("Player").Length);
+        Debug.Log("Enemy count: " + GameObject.FindGameObjectsWithTag("Enemy").Length);
+
         if (GameObject.FindGameObjectsWithTag("Player").Length == 0)
         {
             isTransitioning = true;
+
+            Debug.Log("Carico GameOver...");
             SceneManager.LoadScene("GameOver");
             return;
         }
@@ -28,6 +33,8 @@ public class LevelManager : MonoBehaviour
                 SceneManager.LoadScene("Level2");
             else if (SceneManager.GetActiveScene().name == "Level2")
                 SceneManager.LoadScene("Level3");
+            else if (SceneManager.GetActiveScene().name == "Level3")
+                SceneManager.LoadScene("Victory");
         }
     }
 }
